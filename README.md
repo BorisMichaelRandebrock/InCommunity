@@ -1,7 +1,7 @@
-# Voting_on_polygon
+ ah vale cometer los cambios pero ahora Inka hostia Guasch Spotify Noain oye a vale no no no no no# Voting_on_polygon
 
 # Description
-InComunity is a, vale a smart contract-based platform that allows for decentralized decision-making and organization. Members can create proposals and vote on them to determine the immediate future.
+InComunity is a smart contract-based platform that allows for decentralized decision-making and organization. Members can create proposals and vote on them to determine the immediate future.
 # Features
 
 Ability to create and vote on proposals
