@@ -6,7 +6,34 @@
     background-color: #e0b13a;
 }
 
+.px-5 {
+    background-color: #e0b13a;
+}
+
+
+img {
+    background-color: white;
+}
+
+#heading-white {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+/*
+
 #logo-png {
     max-width: 70%;
     height: auto;
 }
+
+.text-gray-600 {
+
+    background-color: white;
+}
+
+.md\:flex-row {
+    background-color: white;
+}*/

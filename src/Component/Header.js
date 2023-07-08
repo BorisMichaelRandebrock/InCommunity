@@ -1,12 +1,12 @@
-import React, { useState, useContext, useEffect } from "react";
-import { AppState } from "../App";
+import React, { useState, useEffect } from "react";
+//import { AppState } from "../App";
 import Proposals from "./Proposals";
 import Approve from "./Approve";
 import CreateProposal from "./CreateProposal";
 import Request from "./Request";
 
 const Header = () => {
-  const App = useContext(AppState);
+  //const App = useContext(AppState);
   const [Address, setAddress] = useState(null);
   const [route, setRoute] = useState("CreateProposal");
   const { ethereum } = window;
@@ -14,7 +14,7 @@ const Header = () => {
     ethereum.on("accountsChanged", async (accounts) => {
       setAddress(accounts[0]);
     });
-  }, []);
+  }, [ethereum]);
 
   const LoginWallet = async () => {
     try {
@@ -38,8 +38,11 @@ const Header = () => {
   };
   return (
     <header class="text-gray-600 body-font">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center heading-white">
+        <a
+          href="/"
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
           <img className="logo-png" src="logo.png" alt="logo" />
           <span></span>
         </a>

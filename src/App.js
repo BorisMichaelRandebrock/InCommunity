@@ -2,9 +2,11 @@ import React, { createContext, useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Header from "./Component/Header";
 import dao from "./Contract/Dao.json";
+//import "ethereum/web3";
+
 const AppState = createContext();
 function App() {
-  const { ethereum } = window;
+  // const { ethereum } = window;
   const [DaoContract, setDaoContract] = useState();
   useEffect(() => {
     const loadEthereum = async () => {
@@ -47,7 +49,7 @@ function App() {
             >
               <div className="flex border-opacity-60 bg-opacity-90 text-lg font-medium border-2 border-black cursor-pointer bg-black text-white mt-4 rounded-lg justify-center items-center py-1 px-2">
                 Install Metamask
-                <img className="h-11" src="metamask.png" />
+                <img className="h-11" src="metamask.png" alt="metamask logo" />
               </div>
             </a>
             <p className="text-white text-lg mt-2">
