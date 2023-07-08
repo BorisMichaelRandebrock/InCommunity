@@ -1,0 +1,171 @@
+{
+    "compiler": {
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "language": "Solidity",
+    "output": {
+        "abi": [
+            {
+                "inputs": [],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_member",
+                        "type": "address"
+                    }
+                ],
+                "name": "ApplyMembership",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "address",
+                        "name": "_member",
+                        "type": "address"
+                    }
+                ],
+                "name": "ApproveMembership",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "Manager",
+                "outputs": [
+                    {
+                        "internalType": "address",
+                        "name": "",
+                        "type": "address"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "clear",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "string",
+                        "name": "_proposalName",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "_discription",
+                        "type": "string"
+                    }
+                ],
+                "name": "createProposal",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "getPendingApproval",
+                "outputs": [
+                    {
+                        "internalType": "address[]",
+                        "name": "",
+                        "type": "address[]"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [],
+                "name": "getProposals",
+                "outputs": [
+                    {
+                        "components": [
+                            {
+                                "internalType": "string",
+                                "name": "name",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "string",
+                                "name": "discription",
+                                "type": "string"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "voteCount",
+                                "type": "uint256"
+                            }
+                        ],
+                        "internalType": "struct Dao.Proposal[]",
+                        "name": "",
+                        "type": "tuple[]"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "uint256",
+                        "name": "proposal",
+                        "type": "uint256"
+                    }
+                ],
+                "name": "vote",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            }
+        ],
+        "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+        },
+        "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+        }
+    },
+    "settings": {
+        "compilationTarget": {
+            "dao.sol": "Dao"
+        },
+        "evmVersion": "london",
+        "libraries": {},
+        "metadata": {
+            "bytecodeHash": "ipfs"
+        },
+        "optimizer": {
+            "enabled": false,
+            "runs": 200
+        },
+        "remappings": []
+    },
+    "sources": {
+        "dao.sol": {
+            "keccak256": "0x0057d923209aea4f8f345dac82bbb80d59a19e66cf4822be5859c9c633296f37",
+            "license": "UNLICENSED",
+            "urls": [
+                "bzz-raw://b8f65e3f3f2729ba4f775f983de1d816c1bd250eb6d73b324e754340fa65dec8",
+                "dweb:/ipfs/QmSwMUZtrvxRKXG2Jb17dxt9KbkoSgLtpeTzUcCuskkYo6"
+            ]
+        }
+    },
+    "version": 1
+}
