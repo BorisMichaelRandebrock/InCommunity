@@ -56,7 +56,9 @@ Decisions are made based on the votes of the members
 InCommunity is being developed as a fully responsive web application using a CI/CD pipeline with React, Tailwind CSS, Aragon, Polygon, Ether.js, Remix.IDE, Solidity, and other technologies. Ether.js and Remix.IDE provide a comprehensive library for interacting with the Ethereum blockchain and its ecosystem.
 
 https://in-community.vercel.app/?vercelToolbarCode=H5XSNBBqfoII7xL
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n1792EHpHds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![YouTube video](https://img.youtube.com/vi/n1792EHpHds/0.jpg)](https://www.youtube.com/watch?v=n1792EHpHds)
+
 
 ## TEAM
 
